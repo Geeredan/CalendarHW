@@ -1,8 +1,8 @@
-﻿int num = int.Parse(Console.ReadLine());
-string day;
-
-//Reading user`s input and convert it into int
+﻿//Reading user`s input and convert it into int
 Console.WriteLine("Enter number of week day (1-7)");
+
+int num = int.Parse(Console.ReadLine());
+string day;
 
 //Check the entered number from 1 to 7 and invalid bumber case
 switch (num)
